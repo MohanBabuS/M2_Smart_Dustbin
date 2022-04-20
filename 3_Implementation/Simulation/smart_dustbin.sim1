@@ -1,0 +1,35 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="SR04" CircId="SR04-3" mainComp="false" Show_id="false" Show_Val="false" Pos="652,164" rotation="0" hflip="1" vflip="1" label="SR04-3" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Servo" CircId="Servo-4" mainComp="false" Show_id="true" Show_Val="false" Pos="256,308" rotation="0" hflip="1" vflip="1" label="Servo-4" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.1 sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+
+<item itemtype="MCU" CircId="mega328-5" mainComp="false" Show_id="true" Show_Val="false" Pos="348,252" rotation="0" hflip="1" vflip="1" label="mega328-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../Temp/arduino_build_183491/SMARTDUSTBIN.ino.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-18" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="24,276" rotation="0" hflip="1" vflip="1" label="Voltage Source-18" idLabPos="-32,-48" labelrot="0" valLabPos="-6,32" valLabRot="0" Value_Volt="5 V" MaxValue="5 V" />
+
+<item itemtype="Ground" CircId="Ground-22" mainComp="false" Show_id="false" Show_Val="false" Pos="120,448" rotation="0" hflip="1" vflip="1" label="Ground-22" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-69" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="264,164" rotation="0" hflip="1" vflip="1" label="Potentiometer-69" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1 kΩ" Value_Ohm="329 Ω" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-73" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="188,148" rotation="0" hflip="1" vflip="1" label="Voltage Source-73" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Value_Volt="5 V" MaxValue="5 V" />
+
+<item itemtype="Ground" CircId="Ground-75" mainComp="false" Show_id="false" Show_Val="false" Pos="312,200" rotation="0" hflip="1" vflip="1" label="Ground-75" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="connector-76" startpinid="Servo-4-in2" endpinid="mega328-5-PORTD7" pointList="208,324,208,456,308,456,308,356,340,356" />
+
+<item itemtype="Connector" uid="connector-77" startpinid="Ground-22-Gnd" endpinid="Servo-4-in1" pointList="120,432,120,308,208,308" />
+
+<item itemtype="Connector" uid="connector-78" startpinid="Servo-4-in0" endpinid="Voltage Source-18-outPin" pointList="208,292,52,292" />
+
+<item itemtype="Connector" uid="connector-79" startpinid="SR04-3-outpin" endpinid="mega328-5-PORTB3" pointList="660,212,660,348,388,348" />
+
+<item itemtype="Connector" uid="connector-80" startpinid="SR04-3-trigpin" endpinid="mega328-5-PORTB4" pointList="652,212,652,340,388,340" />
+
+<item itemtype="Connector" uid="connector-81" startpinid="SR04-3-inpin" endpinid="Potentiometer-69-PinM" pointList="564,140,344,140,344,212,264,212,264,180" />
+
+<item itemtype="Connector" uid="connector-82" startpinid="Voltage Source-73-outPin" endpinid="Potentiometer-69-PinA" pointList="216,164,248,164" />
+
+<item itemtype="Connector" uid="connector-83" startpinid="Potentiometer-69-PinB" endpinid="Ground-75-Gnd" pointList="280,164,312,164,312,184" />
+
+</circuit>
