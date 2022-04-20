@@ -7,6 +7,9 @@
    * ULTRA SONIC SENSOR
    * SERVO MOTOR
    * DUSTBIN
+# CATEGORY
+  * An automatic open-close lid for convenience and to reduce physical contact, preventing the spread of germs.
+  * Separation of dry and wet waste
 ## DESCRIPTION
 # ATMEGA328
  * Microchip's ATmega328 is an 8-bit, 28-pin AVR Microcontroller that uses RISC architecture and includes a 32KB flash-type programme memory.
