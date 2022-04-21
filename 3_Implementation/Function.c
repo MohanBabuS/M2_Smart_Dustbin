@@ -1,3 +1,18 @@
+/**
+ * @file Function.c
+ * @author MOHAN BABU S (mohanbabu.s.2018.ece@ritchennai.edu.in)
+ * @brief Header file for Smart_Dustbin are connected to AVR328 MCU GPIO pin
+ * @version 0.1
+ * @date 2022-04-21
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+#include <stdio.h>
+/**
+ * @brief Initialization of pins
+ * @return Declaration
+ */
 void setup() 
 {       
     servo.attach(servoPin);  
@@ -8,6 +23,10 @@ void setup()
     delay(1000);
     servo.write(3);
 } 
+/** 
+ * @brief Measuring the distance
+ * @return Getting Input values
+ */
 void measure() 
 {  
 digitalWrite(trigPin, LOW);
@@ -19,6 +38,10 @@ pinMode(echoPin, INPUT);
 duration = pulseIn(echoPin, HIGH);
 dist = (duration/2) / 24;   
 }
+/** 
+ * @brief Execution part
+ * @return Part of Execution
+ */
   void loop()
   { 
 if (digitalRead(3)==1 && flag==0) 
