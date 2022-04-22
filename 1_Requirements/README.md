@@ -35,14 +35,14 @@
  * Innovation
  * Patnership with eco-friendly companies
  * Incentive to recycle more waste
-# OPPORTUNITIES
- * Spreading the movement one city at the time
- * Sorting conciousness
- * Improving the result of existing recycle
 # WEAKNESS
  * Numerous shakeholder to deal with city council,Syctom etc...
  * Only a service we don't manage the product
  * Values of eco-chain
+# OPPORTUNITIES
+ * Spreading the movement one city at the time
+ * Sorting conciousness
+ * Improving the result of existing recycle
 # THREAT
  * Is won't patented
  * Win public market bidding
