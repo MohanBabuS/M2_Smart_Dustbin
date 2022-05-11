@@ -30,6 +30,15 @@
 # DISADVANTAGE
   * As the city's population grows, the system will require more garbage bins for separate waste collection.
   * The memory size of the sensor nodes utilised in the dustbins is restricted.
+## 4 WH
+# WHAT IS SMART DUSTBIN
+ The smart dustbin is a well-designed solution that addresses the social issue of garbage disposal. It recognises the type of material put within it and categorises it as biodegradable or non-biodegradable. As an added incentive to discard waste, the dustbin has the option of providing wifi.
+# WHY SMART DUSTBIN
+ Smart Bins contribute to a cleaner, safer, and more sanitary environment, as well as improved operating efficiency, while lowering management costs, resources, and roadside emissions.
+# WHERE SMART DUSTBIN
+ They are frequently used to collect waste in houses, offices, streets, and parks, among other places. Littering is a significant crime in some areas, thus public waste containers are the sole means to dispose of minor waste. Separate bins for collecting wet and dry waste, recyclable and non-recyclable waste are usually used.
+# WHEN THE SMART DUSTBIN
+ The start-up created the first smart and connected trashcan in 2013, which was totally designed and manufactured in France. The creators of GreenCREATIVE, Lucile Noury and Rémi Gomez
 ## SWOT ANALYSIS
 # STRENGTH
  * Innovation
